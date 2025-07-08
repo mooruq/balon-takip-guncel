@@ -1,0 +1,36 @@
+# ByteTrack Configuration for Fast Motion Tracking
+# Hızlı hareket durumları için optimize edilmiş ayarlar
+
+tracking:
+  # Ana thresholds
+  track_thresh: 0.4              # Detection threshold (düşürüldü hızlı hareket için)
+  match_thresh: 0.85             # Association threshold (yükseltildi)
+  track_buffer: 60               # Tracking buffer (artırıldı)
+  
+  # Performans optimizasyonları
+  min_box_area: 50               # Minimum detection area (azaltıldı)
+  aspect_ratio_thresh: 2.0       # Aspect ratio threshold (gevşetildi)
+  
+  # Kalman Filter ayarları
+  motion_std: 0.1                # Motion uncertainty
+  observation_std: 0.1           # Observation uncertainty
+  
+  # Frame processing
+  frame_skip_threshold: 60       # High FPS'te frame skip
+  max_tracking_memory: 15        # History length
+  
+  # Association ayarları
+  high_thresh: 0.6              # High confidence threshold
+  low_thresh: 0.1               # Low confidence threshold (düşük skorlu nesneler için)
+  
+video:
+  # Video işleme ayarları
+  target_fps: 30                # Target FPS
+  resize_factor: 1.0            # Video resize factor
+  
+visualization:
+  # Görselleştirme ayarları
+  show_trajectory: true         # Trajectory göster
+  trajectory_length: 5          # Trajectory point sayısı
+  show_prediction: true         # Prediction göster
+  show_confidence: true         # Confidence score göster 

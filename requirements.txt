@@ -1,0 +1,56 @@
+# ====================================
+# BALON TAKİP SİSTEMİ - GEREKLİ PAKETLER
+# ====================================
+
+# Temel Kütüphaneler
+numpy==1.24.4
+opencv-python==4.11.0.86
+Pillow==11.2.1
+
+# PyQt5 GUI Framework  
+PyQt5==5.15.11
+PyQt5-sip==12.17.0
+
+# YOLO & Deep Learning
+torch==2.1.2+cu118
+torchvision==0.16.2+cu118
+ultralytics==8.1.25
+
+# Scientific Computing (ByteTracker için)
+scipy==1.15.2
+filterpy==1.4.5
+cython-bbox==0.1.5
+
+# Kamera Kalibrasyonu
+matplotlib==3.10.1
+
+# Motor Kontrol (LZ100 Servo)
+pymodbus==3.7.4
+pyserial==3.5
+
+# Configuration Management
+python-dotenv==1.0.1
+PyYAML==6.0.2
+
+# Utility Libraries
+tqdm==4.67.1
+requests==2.32.3
+
+# ====================================
+# OPSIYONEL PAKETLER
+# ====================================
+
+# Sistem Monitoring (isteğe bağlı)
+# psutil==7.0.0
+
+# Linear Assignment (LAP solver - ByteTracker için)
+lap>=0.4
+
+# ====================================
+# NOTLAR
+# ====================================
+# 1. CUDA 11.8 için torch sürümü ayarlandı
+# 2. LAP solver için: pip install lap
+# 3. Sistem Windows için optimize edildi
+# 4. OCR özelliği (easyocr) kaldırıldı
+# 5. TensorFlow/ONNX desteği kaldırıldı

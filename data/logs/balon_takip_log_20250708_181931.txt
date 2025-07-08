@@ -1,0 +1,57 @@
+=== Balon Takip Sistemi Log - Started at 20250708_181931 ===
+
+2025-07-08 18:19:32 [INFO]: 🚀 Balon Takip Sistemi başlatılıyor...
+2025-07-08 18:19:32 [INFO]: 📷 Kullanılan Kamera ID: 0
+2025-07-08 18:19:32 [INFO]: 🎯 Model Dizini: models
+2025-07-08 18:19:32 [INFO]: 🖥️ Ana pencere oluşturuluyor: 1400x800
+2025-07-08 18:19:32 [INFO]: 🌙 Koyu temaya geçildi
+2025-07-08 18:19:32 [INFO]: 🎯 Kullanılacak model: models\bests_balloon_30_dark.pt
+2025-07-08 18:19:32 [INFO]: 🎛️ LZ-100 Servo Service initialized
+2025-07-08 18:19:32 [INFO]: 🎯 IBVS Pan-Tilt Service with LZ-100 Servos initialized
+2025-07-08 18:19:32 [INFO]: 🎯 Frame center set to (320, 240)
+2025-07-08 18:19:32 [INFO]: 🎮 MainController başlatıldı - ByteTrack+ algoritması + LZ100 Motor Kontrol
+2025-07-08 18:19:32 [INFO]: 🤖 Model yükleme başlatıldı: models\bests_balloon_30_dark.pt
+2025-07-08 18:19:32 [INFO]: ⏱️ Pencere Gösterme: 0.34s
+2025-07-08 18:19:32 [INFO]: 🏁 Teknofest Ana pencere başlatma tamamlandı: 0.36 saniye
+2025-07-08 18:19:32 [INFO]: ⏱️ Ana Pencere Oluşturma: 0.36s (Toplam: 0.37s)
+2025-07-08 18:19:32 [INFO]: ✅ Uygulama başlatma tamamlandı! Toplam süre: 0.58 saniye
+2025-07-08 18:19:32 [INFO]: 📷 Kamera listesi yenileniyor
+2025-07-08 18:19:32 [INFO]: ✅ Model başarıyla yüklendi
+2025-07-08 18:19:33 [INFO]: ✅ Kamera 0 bulundu
+2025-07-08 18:19:33 [INFO]: ✅ Kamera 1 bulundu
+2025-07-08 18:19:34 [INFO]: 📷 Toplam 2 kamera bulundu
+2025-07-08 18:19:37 [INFO]: 🎥 Balon tracking başlatılıyor - Kamera ID: 0, Confidence: 0.4
+2025-07-08 18:19:37 [INFO]: ⚡ Hızlı tracking başlatılıyor - Kaynak: 0, Confidence: 0.4
+2025-07-08 18:19:37 [INFO]: ⏹️ Video tracking durduruluyor
+2025-07-08 18:19:37 [INFO]: ⚡ ByteTracker hızlı başlatma - Kamera: 0, Confidence: 0.4
+2025-07-08 18:19:37 [INFO]: 📹 Kamera bağlantısı açılıyor: 0
+2025-07-08 18:19:37 [INFO]: 📷 Kamera kalibrasyonu yüklendi - Error: 0.016px
+2025-07-08 18:19:38 [INFO]: 📷 Kalibrasyon dosyası: data\logitech_c920_calibration_20250628_212101.npz
+2025-07-08 18:19:38 [INFO]: ✅ Kamera başarıyla açıldı - FPS: 30
+2025-07-08 18:19:38 [DEBUG]: ByteTracker Args: thresh=0.5, buffer=30, match=0.8
+2025-07-08 18:20:45 [INFO]: ⏹️ Balon tracking durduruluyor
+2025-07-08 18:20:45 [INFO]: ⏹️ Video tracking durduruluyor
+2025-07-08 18:20:45 [INFO]: 🔚 ByteTracker tracking sonlandırıldı
+2025-07-08 18:20:48 [INFO]: 🎥 Balon tracking başlatılıyor - Kamera ID: 0, Confidence: 0.4
+2025-07-08 18:20:48 [INFO]: ⚡ Hızlı tracking başlatılıyor - Kaynak: 0, Confidence: 0.4
+2025-07-08 18:20:48 [INFO]: ⏹️ Video tracking durduruluyor
+2025-07-08 18:20:48 [INFO]: ⚡ ByteTracker hızlı başlatma - Kamera: 0, Confidence: 0.4
+2025-07-08 18:20:48 [INFO]: 📹 Kamera bağlantısı açılıyor: 0
+2025-07-08 18:20:48 [INFO]: 📷 Kamera kalibrasyonu yüklendi - Error: 0.016px
+2025-07-08 18:20:48 [INFO]: 📷 Kalibrasyon dosyası: data\logitech_c920_calibration_20250628_212101.npz
+2025-07-08 18:20:48 [INFO]: ✅ Kamera başarıyla açıldı - FPS: 30
+2025-07-08 18:20:48 [DEBUG]: ByteTracker Args: thresh=0.5, buffer=30, match=0.8
+2025-07-08 18:20:52 [WARNING]: 🚨 ACİL STOP butonuna basıldı!
+2025-07-08 18:20:52 [WARNING]: 🚨 ACİL MOTOR DURDURMA - İLK ÖNCELİK!
+2025-07-08 18:20:52 [WARNING]: 🚨 ACİL MOTOR DURDURMA - ANINDA!
+2025-07-08 18:20:52 [WARNING]: 🚨 IBVS ACİL DURDURMA!
+2025-07-08 18:20:52 [WARNING]: ⚡ IBVS ACİL DURDURMA TAMAMLANDI!
+2025-07-08 18:20:52 [WARNING]: ⚡ Motor hareketi anında durduruldu!
+2025-07-08 18:20:52 [INFO]: ⏹️ Motor tracking durduruldu
+2025-07-08 18:20:52 [WARNING]: 🚨 ACİL MOTOR DURDURMA TAMAMLANDI!
+2025-07-08 18:20:52 [INFO]: ⏹️ Video tracking durduruluyor
+2025-07-08 18:20:53 [INFO]: 🔚 ByteTracker tracking sonlandırıldı
+2025-07-08 18:20:56 [INFO]: 🚪 Çıkış butonu tıklandı
+2025-07-08 18:20:56 [INFO]: 🚪 Uygulama kapatılıyor
+2025-07-08 18:20:56 [INFO]: ⏹️ Video tracking durduruluyor
+2025-07-08 18:20:56 [INFO]: 🔚 Uygulama normal şekilde sonlandırıldı

@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "./OC_SORT/tools/run_",
+        "./YOLOv8-Object-Detection-with-DeepSORT-Tracking/deep_sort_pytorch"
+    ],
+    "cursorpyright.analysis.extraPaths": [
+        "./OC_SORT/tools/run_",
+        "./YOLOv8-Object-Detection-with-DeepSORT-Tracking/deep_sort_pytorch"
+    ]
+}
